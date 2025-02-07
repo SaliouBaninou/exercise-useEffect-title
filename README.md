@@ -1,5 +1,5 @@
 
-# Exercice 01 useEffect: Mise à jour du titre de la page 📄✨
+# Exercice 1 useEffect: Mise à jour du titre de la page 📄✨
 
 ## Objectif 🎯
 
