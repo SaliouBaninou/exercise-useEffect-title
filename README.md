@@ -20,11 +20,11 @@ Cet exercice consiste à modifier dynamiquement le titre de la page en fonction 
 
 1. Clonez ce dépôt :
    ```bash
-   git clone <URL du dépôt>
+   git clone https://github.com/SaliouBaninou/exercise-useEffect-title.git
    ```
 2. Accédez au répertoire du projet :
    ```bash
-   cd <nom du dossier>
+   cd exercise-useEffect-title
    ```
 3. Installez les dépendances :
    ```bash
