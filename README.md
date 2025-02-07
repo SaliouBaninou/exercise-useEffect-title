@@ -36,7 +36,7 @@ Cet exercice consiste à modifier dynamiquement le titre de la page en fonction 
 Pour démarrer l'application en mode développement, utilisez la commande suivante :
 
 ```bash
-npm start
+npm dev
 ```
 
 Cela ouvrira l'application dans votre navigateur à l'adresse [http://localhost:3000](http://localhost:3000) 🌐.
