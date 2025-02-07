@@ -2,22 +2,22 @@ import { useEffect } from "react";
 import { useState } from "react";
 
 function App() {
-  const [title, setTtitle] = useState("");
+  const [count, setCount] = useState(0);
 
   const handleChange = (e) => {
-    setTtitle(e.target.value);
+    setCount(e.target.value);
   };
 
   useEffect(() => {
-    const docTitle = (document.title = title);
+    const docTitle = (document.title = `Count: ${count}`);
     return () => docTitle;
-  }, [title]);
+  }, [count]);
   return (
     <>
       <form>
-        <label htmlFor="title">
+        <label htmlFor="count">
           Title:
-          <input type="text" onChange={handleChange} />
+          <input type="number" onChange={handleChange} id="count" />
         </label>
       </form>
     </>
